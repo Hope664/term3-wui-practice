@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Layout</title>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .header {
+      width: 100%;
+      height: 56px;
+      background-color: #aaaaaa;
+    }
+
+    .wrapper {
+      width: 100%;
+    }
+
+    .sidebar {
+      float: left;
+      width: 200px;
+      height: 100vh;
+      background-color: #dddddd;
+    }
+
+    .content {
+      float: left;
+      width: calc(100% - 200px);
+      padding: 16px;
+    }
+
+    .filter-bar {
+      width: 100%;
+      height: 36px;
+      background-color: #e8e8e8;
+      margin-bottom: 16px;
+    }
+
+    .row {
+      width: 100%;
+      margin-bottom: 24px;
+    }
+
+    .card {
+      float: left;
+      width: 23%;
+      margin-right: 2%;
+    }
+
+    .card:last-child {
+      margin-right: 0;
+    }
+
+    .thumbnail {
+      width: 100%;
+      height: 130px;
+      background-color: #bbbbbb;
+    }
+
+    .info {
+      padding: 8px 0;
+    }
+
+    .avatar {
+      float: left;
+      width: 36px;
+      height: 36px;
+      background-color: #aaaaaa;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .lines {
+      float: left;
+      width: calc(100% - 46px);
+      padding-top: 4px;
+    }
+
+    .line1 {
+      height: 10px;
+      background-color: #cccccc;
+      margin-bottom: 6px;
+      width: 90%;
+    }
+
+    .line2 {
+      height: 9px;
+      background-color: #dddddd;
+      width: 65%;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="header"></div>
+
+  <div class="wrapper clearfix">
+
+    <div class="sidebar"></div>
+
+    <div class="content">
+
+      <div class="filter-bar"></div>
+
+      <div class="row clearfix">
+        <div class="card">
+          <div class="thumbnail"></div>
+          <div class="info clearfix">
+            <div class="avatar"></div>
+            <div class="lines"><div class="line1"></div><div class="line2"></div></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="thumbnail"></div>
+          <div class="info clearfix">
+            <div class="avatar"></div>
+            <div class="lines"><div class="line1"></div><div class="line2"></div></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="thumbnail"></div>
+          <div class="info clearfix">
+            <div class="avatar"></div>
+            <div class="lines"><div class="line1"></div><div class="line2"></div></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="thumbnail"></div>
+          <div class="info clearfix">
+            <div class="avatar"></div>
+            <div class="lines"><div class="line1"></div><div class="line2"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row clearfix">
+        <div class="card">
+          <div class="thumbnail"></div>
+          <div class="info clearfix">
+            <div class="avatar"></div>
+            <div class="lines"><div class="line1"></div><div class="line2"></div></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="thumbnail"></div>
+          <div class="info clearfix">
+            <div class="avatar"></div>
+            <div class="lines"><div class="line1"></div><div class="line2"></div></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="thumbnail"></div>
+          <div class="info clearfix">
+            <div class="avatar"></div>
+            <div class="lines"><div class="line1"></div><div class="line2"></div></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="thumbnail"></div>
+          <div class="info clearfix">
+            <div class="avatar"></div>
+            <div class="lines"><div class="line1"></div><div class="line2"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row clearfix">
+        <div class="card">
+          <div class="thumbnail"></div>
+          <div class="info clearfix">
+            <div class="avatar"></div>
+            <div class="lines"><div class="line1"></div><div class="line2"></div></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="thumbnail"></div>
+          <div class="info clearfix">
+            <div class="avatar"></div>
+            <div class="lines"><div class="line1"></div><div class="line2"></div></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="thumbnail"></div>
+          <div class="info clearfix">
+            <div class="avatar"></div>
+            <div class="lines"><div class="line1"></div><div class="line2"></div></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="thumbnail"></div>
+          <div class="info clearfix">
+            <div class="avatar"></div>
+            <div class="lines"><div class="line1"></div><div class="line2"></div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
